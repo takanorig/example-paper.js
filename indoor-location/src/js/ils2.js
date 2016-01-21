@@ -78,7 +78,7 @@ var peopleNum = 20;
 for (var i = 0; i < peopleNum; i++) {
     var id = 'person-' + i;
     var gender = Math.random() <= 0.5 ? 0 : 1; // 0:male, 1:female
-	
+
     var person = new Person(id, gender);
     people.push(person);
 
